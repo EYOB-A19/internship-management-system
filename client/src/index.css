@@ -14,9 +14,10 @@
     --color-text-main: #f8fafc;
     --color-text-muted: #94a3b8;
 
-    --font-display: 'Fraunces', Georgia, serif;
-    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-    --font-mono: 'IBM Plex Mono', monospace;
+    --font-display: "Fraunces", Georgia, serif;
+    --font-sans:
+      "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: "IBM Plex Mono", monospace;
   }
 
   body {
@@ -28,12 +29,16 @@
     font-feature-settings: "cv02", "cv03", "cv04", "cv11";
   }
 
-  h1, h2, h3, .font-display {
+  h1,
+  h2,
+  h3,
+  .font-display {
     font-family: var(--font-display);
     text-wrap: balance;
   }
 
-  .font-mono, .tabular-nums {
+  .font-mono,
+  .tabular-nums {
     font-family: var(--font-mono);
     font-variant-numeric: tabular-nums;
   }
@@ -41,10 +46,22 @@
 
 /* RedSun Signature Radial Lighting & Glow Effects */
 .redsun-bg-radial {
-  background-image: 
-    radial-gradient(circle at 50% 0%, rgba(246, 111, 20, 0.18) 0%, rgba(6, 9, 16, 0) 55%),
-    radial-gradient(circle at 100% 50%, rgba(255, 173, 117, 0.08) 0%, rgba(6, 9, 16, 0) 45%),
-    radial-gradient(circle at 0% 100%, rgba(234, 56, 76, 0.08) 0%, rgba(6, 9, 16, 0) 50%);
+  background-image:
+    radial-gradient(
+      circle at 50% 0%,
+      rgba(246, 111, 20, 0.18) 0%,
+      rgba(6, 9, 16, 0) 55%
+    ),
+    radial-gradient(
+      circle at 100% 50%,
+      rgba(255, 173, 117, 0.08) 0%,
+      rgba(6, 9, 16, 0) 45%
+    ),
+    radial-gradient(
+      circle at 0% 100%,
+      rgba(234, 56, 76, 0.08) 0%,
+      rgba(6, 9, 16, 0) 50%
+    );
 }
 
 .redsun-hero-lighting {
@@ -54,7 +71,12 @@
   transform: translateX(-50%);
   width: 900px;
   height: 520px;
-  background: radial-gradient(ellipse at center, rgba(246, 111, 20, 0.32) 0%, rgba(255, 173, 117, 0.12) 38%, rgba(6, 9, 16, 0) 70%);
+  background: radial-gradient(
+    ellipse at center,
+    rgba(246, 111, 20, 0.32) 0%,
+    rgba(255, 173, 117, 0.12) 38%,
+    rgba(6, 9, 16, 0) 70%
+  );
   filter: blur(48px);
   pointer-events: none;
   z-index: 0;
@@ -78,7 +100,7 @@
   backdrop-filter: blur(16px);
   border: 1px solid rgba(247, 114, 24, 0.22);
   border-radius: 16px;
-  box-shadow: 
+  box-shadow:
     inset 0 -19px 78px 0 rgba(104, 52, 17, 0.28),
     inset 0 0 29px 0 rgba(255, 255, 255, 0.04),
     0 12px 35px -8px rgba(0, 0, 0, 0.75),
@@ -88,7 +110,7 @@
 
 .redsun-box:hover {
   border-color: rgba(246, 111, 20, 0.55);
-  box-shadow: 
+  box-shadow:
     inset 0 -19px 78px 0 rgba(104, 52, 17, 0.42),
     inset 0 0 29px 0 rgba(255, 255, 255, 0.08),
     0 20px 40px -10px rgba(0, 0, 0, 0.85),
@@ -98,12 +120,16 @@
 
 /* RedSun Radiant Glow Button */
 .button-glow {
-  background: radial-gradient(circle farthest-corner at 50% 100%, #ffad75, #f66f14 78%);
+  background: radial-gradient(
+    circle farthest-corner at 50% 100%,
+    #ffad75,
+    #f66f14 78%
+  );
   color: #ffffff;
   border: 1px solid #ff9752;
   border-radius: 12px;
   font-weight: 600;
-  box-shadow: 
+  box-shadow:
     inset 0 2px 4px rgba(255, 255, 255, 0.35),
     inset 0 -4px 8px rgba(120, 40, 0, 0.5),
     0 0 28px rgba(246, 111, 20, 0.45);
@@ -113,7 +139,7 @@
 .button-glow:hover {
   transform: scale(1.035);
   border-color: #ffd0b0;
-  box-shadow: 
+  box-shadow:
     inset 0 3px 6px rgba(255, 255, 255, 0.5),
     inset 0 -4px 10px rgba(120, 40, 0, 0.6),
     0 8px 36px rgba(246, 111, 20, 0.65);
@@ -134,7 +160,7 @@
   border-color: #f66f14;
   color: #ffffff;
   transform: scale(1.025);
-  box-shadow: 
+  box-shadow:
     inset 0 -8px 24px rgba(246, 111, 20, 0.3),
     0 0 20px rgba(246, 111, 20, 0.28);
 }
@@ -146,13 +172,17 @@
 }
 
 .spotlight-card::before {
-  content: '';
+  content: "";
   position: absolute;
   top: var(--mouse-y, -1000px);
   left: var(--mouse-x, -1000px);
   width: 420px;
   height: 420px;
-  background: radial-gradient(circle, rgba(246, 111, 20, 0.2) 0%, rgba(246, 111, 20, 0) 70%);
+  background: radial-gradient(
+    circle,
+    rgba(246, 111, 20, 0.2) 0%,
+    rgba(246, 111, 20, 0) 70%
+  );
   transform: translate(-50%, -50%);
   pointer-events: none;
   opacity: 0;
@@ -166,7 +196,8 @@
 
 /* Floating animation */
 @keyframes floatSlow {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0px);
   }
   50% {
@@ -203,19 +234,24 @@
   color: #f8fafc !important;
 }
 
-.border-slate-200, .border-slate-100 {
+.border-slate-200,
+.border-slate-100 {
   border-color: rgba(247, 114, 24, 0.22) !important;
 }
 
-.text-slate-900, .text-slate-800, .text-slate-700 {
+.text-slate-900,
+.text-slate-800,
+.text-slate-700 {
   color: #f8fafc !important;
 }
 
-.text-slate-600, .text-slate-500 {
+.text-slate-600,
+.text-slate-500 {
   color: #94a3b8 !important;
 }
 
-.bg-slate-50, .bg-slate-100 {
+.bg-slate-50,
+.bg-slate-100 {
   background-color: rgba(6, 9, 16, 0.75) !important;
 }
 
@@ -224,24 +260,35 @@
   color: #ffffff !important;
 }
 
-.bg-teal-700, .bg-teal-800 {
-  background: radial-gradient(circle farthest-corner at 50% 100%, #ffad75, #f66f14 78%) !important;
+.bg-teal-700,
+.bg-teal-800 {
+  background: radial-gradient(
+    circle farthest-corner at 50% 100%,
+    #ffad75,
+    #f66f14 78%
+  ) !important;
   border: 1px solid #ff9752 !important;
   color: #ffffff !important;
   box-shadow: 0 0 20px rgba(246, 111, 20, 0.4) !important;
 }
 
-.text-teal-700, .text-teal-600, .text-teal-800 {
+.text-teal-700,
+.text-teal-600,
+.text-teal-800 {
   color: #ffad75 !important;
 }
 
-input:not([type="checkbox"]):not([type="radio"]), select, textarea {
+input:not([type="checkbox"]):not([type="radio"]),
+select,
+textarea {
   background-color: #060910 !important;
   color: #f8fafc !important;
   border-color: rgba(247, 114, 24, 0.3) !important;
 }
 
-input:focus, select:focus, textarea:focus {
+input:focus,
+select:focus,
+textarea:focus {
   border-color: #f66f14 !important;
   box-shadow: 0 0 14px rgba(246, 111, 20, 0.35) !important;
 }
