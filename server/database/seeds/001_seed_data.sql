@@ -13,7 +13,10 @@ INSERT INTO universities (name, short_name, city, region, website) VALUES
   ('Mekelle University', 'MU', 'Mekelle', 'Tigray', 'https://www.mu.edu.et'),
   ('University of Gondar', 'UoG', 'Gondar', 'Amhara', 'https://www.uog.edu.et'),
   ('Arba Minch University', 'AMU', 'Arba Minch', 'South Ethiopia', 'https://www.amu.edu.et'),
-  ('Haramaya University', 'HRU', 'Dire Dawa / Haramaya', 'Oromia', 'https://www.haramaya.edu.et')
+  ('Haramaya University', 'HRU', 'Dire Dawa / Haramaya', 'Oromia', 'https://www.haramaya.edu.et'),
+  ('Wolkite University', 'WU', 'Wolkite', 'Oromia', 'https://www.wu.edu.et'),
+  ('Gondar University', 'GU', 'Gondar', 'Amhara', 'https://www.gu.edu.et'),
+
 ON CONFLICT (name) DO NOTHING;
 
 INSERT INTO departments (name, faculty, description) VALUES
