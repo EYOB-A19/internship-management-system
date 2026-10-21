@@ -1,17 +1,17 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import { AuthProvider, useAuth } from './context/AuthContext.jsx';
+import React from "react";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { AuthProvider, useAuth } from "./context/AuthContext.jsx";
 
 // Public Pages
-import { HomePage } from './pages/public/HomePage.jsx';
-import { InternshipsPage } from './pages/public/InternshipsPage.jsx';
-import { InternshipDetailsPage } from './pages/public/InternshipDetailsPage.jsx';
-import { CompaniesPage } from './pages/public/CompaniesPage.jsx';
-import { CompanyDetailsPage } from './pages/public/CompanyDetailsPage.jsx';
-import { PublicPortfolioPage } from './pages/public/PublicPortfolioPage.jsx';
-import { LoginPage } from './pages/public/LoginPage.jsx';
-import { RegisterPage } from './pages/public/RegisterPage.jsx';
-import { AboutPage } from './pages/public/AboutPage.jsx';
+import { HomePage } from "./pages/public/HomePage.jsx";
+import { InternshipsPage } from "./pages/public/InternshipsPage.jsx";
+import { InternshipDetailsPage } from "./pages/public/InternshipDetailsPage.jsx";
+import { CompaniesPage } from "./pages/public/CompaniesPage.jsx";
+import { CompanyDetailsPage } from "./pages/public/CompanyDetailsPage.jsx";
+import { PublicPortfolioPage } from "./pages/public/PublicPortfolioPage.jsx";
+import { LoginPage } from "./pages/public/LoginPage.jsx";
+import { RegisterPage } from "./pages/public/RegisterPage.jsx";
+import { AboutPage } from "./pages/public/AboutPage.jsx";
 
 // Student Pages
 import {
@@ -23,9 +23,9 @@ import {
   NotificationsCenterPage,
   StudentPortfolioManagePage,
   AccountSettingsPage,
-} from './pages/student/StudentDashboardPages.jsx';
-import { StudentProfilePage } from './pages/student/StudentProfilePage.jsx';
-import { StudentCvBuilderPage } from './pages/student/StudentCvBuilderPage.jsx';
+} from "./pages/student/StudentDashboardPages.jsx";
+import { StudentProfilePage } from "./pages/student/StudentProfilePage.jsx";
+import { StudentCvBuilderPage } from "./pages/student/StudentCvBuilderPage.jsx";
 
 // Company Pages
 import {
@@ -36,7 +36,7 @@ import {
   CompanyApplicationsPage,
   CompanyStudentDiscoveryPage,
   CompanyInterviewsPage,
-} from './pages/company/CompanyDashboardPages.jsx';
+} from "./pages/company/CompanyDashboardPages.jsx";
 
 // Admin Pages
 import {
@@ -48,7 +48,7 @@ import {
   AdminDepartmentsPage,
   AdminSkillsPage,
   AdminReportsPage,
-} from './pages/admin/AdminDashboardPages.jsx';
+} from "./pages/admin/AdminDashboardPages.jsx";
 
 function ProtectedRoute({ allowedRoles, children }) {
   const { user, loading } = useAuth();
@@ -67,11 +67,11 @@ function ProtectedRoute({ allowedRoles, children }) {
 
   if (allowedRoles && !allowedRoles.includes(user.role)) {
     const fallback =
-      user.role === 'ADMIN'
-        ? '/admin/dashboard'
-        : user.role === 'COMPANY'
-        ? '/company/dashboard'
-        : '/student/dashboard';
+      user.role === "ADMIN"
+        ? "/admin/dashboard"
+        : user.role === "COMPANY"
+          ? "/company/dashboard"
+          : "/student/dashboard";
     return <Navigate to={fallback} replace />;
   }
 
@@ -98,7 +98,7 @@ export default function App() {
           <Route
             path="/student/dashboard"
             element={
-              <ProtectedRoute allowedRoles={['STUDENT']}>
+              <ProtectedRoute allowedRoles={["STUDENT"]}>
                 <StudentDashboardPage />
               </ProtectedRoute>
             }
@@ -106,7 +106,7 @@ export default function App() {
           <Route
             path="/student/profile"
             element={
-              <ProtectedRoute allowedRoles={['STUDENT']}>
+              <ProtectedRoute allowedRoles={["STUDENT"]}>
                 <StudentProfilePage />
               </ProtectedRoute>
             }
@@ -114,7 +114,7 @@ export default function App() {
           <Route
             path="/student/applications"
             element={
-              <ProtectedRoute allowedRoles={['STUDENT']}>
+              <ProtectedRoute allowedRoles={["STUDENT"]}>
                 <StudentApplicationsPage />
               </ProtectedRoute>
             }
@@ -122,7 +122,7 @@ export default function App() {
           <Route
             path="/student/saved"
             element={
-              <ProtectedRoute allowedRoles={['STUDENT']}>
+              <ProtectedRoute allowedRoles={["STUDENT"]}>
                 <StudentSavedPage />
               </ProtectedRoute>
             }
@@ -130,7 +130,7 @@ export default function App() {
           <Route
             path="/student/recommendations"
             element={
-              <ProtectedRoute allowedRoles={['STUDENT']}>
+              <ProtectedRoute allowedRoles={["STUDENT"]}>
                 <StudentRecommendationsPage />
               </ProtectedRoute>
             }
@@ -138,7 +138,7 @@ export default function App() {
           <Route
             path="/student/portfolio"
             element={
-              <ProtectedRoute allowedRoles={['STUDENT']}>
+              <ProtectedRoute allowedRoles={["STUDENT"]}>
                 <StudentPortfolioManagePage />
               </ProtectedRoute>
             }
@@ -146,7 +146,7 @@ export default function App() {
           <Route
             path="/student/cv-builder"
             element={
-              <ProtectedRoute allowedRoles={['STUDENT']}>
+              <ProtectedRoute allowedRoles={["STUDENT"]}>
                 <StudentCvBuilderPage />
               </ProtectedRoute>
             }
@@ -154,7 +154,7 @@ export default function App() {
           <Route
             path="/student/interviews"
             element={
-              <ProtectedRoute allowedRoles={['STUDENT']}>
+              <ProtectedRoute allowedRoles={["STUDENT"]}>
                 <StudentInterviewsPage />
               </ProtectedRoute>
             }
@@ -162,7 +162,7 @@ export default function App() {
           <Route
             path="/student/notifications"
             element={
-              <ProtectedRoute allowedRoles={['STUDENT']}>
+              <ProtectedRoute allowedRoles={["STUDENT"]}>
                 <NotificationsCenterPage />
               </ProtectedRoute>
             }
@@ -170,7 +170,7 @@ export default function App() {
           <Route
             path="/student/settings"
             element={
-              <ProtectedRoute allowedRoles={['STUDENT']}>
+              <ProtectedRoute allowedRoles={["STUDENT"]}>
                 <AccountSettingsPage />
               </ProtectedRoute>
             }
@@ -180,7 +180,7 @@ export default function App() {
           <Route
             path="/company/dashboard"
             element={
-              <ProtectedRoute allowedRoles={['COMPANY']}>
+              <ProtectedRoute allowedRoles={["COMPANY"]}>
                 <CompanyDashboardPage />
               </ProtectedRoute>
             }
@@ -188,7 +188,7 @@ export default function App() {
           <Route
             path="/company/profile"
             element={
-              <ProtectedRoute allowedRoles={['COMPANY']}>
+              <ProtectedRoute allowedRoles={["COMPANY"]}>
                 <CompanyProfilePage />
               </ProtectedRoute>
             }
@@ -196,7 +196,7 @@ export default function App() {
           <Route
             path="/company/internships"
             element={
-              <ProtectedRoute allowedRoles={['COMPANY']}>
+              <ProtectedRoute allowedRoles={["COMPANY"]}>
                 <CompanyInternshipsPage />
               </ProtectedRoute>
             }
@@ -204,7 +204,7 @@ export default function App() {
           <Route
             path="/company/internships/create"
             element={
-              <ProtectedRoute allowedRoles={['COMPANY']}>
+              <ProtectedRoute allowedRoles={["COMPANY"]}>
                 <CompanyInternshipFormPage />
               </ProtectedRoute>
             }
@@ -212,7 +212,7 @@ export default function App() {
           <Route
             path="/company/internships/:id"
             element={
-              <ProtectedRoute allowedRoles={['COMPANY']}>
+              <ProtectedRoute allowedRoles={["COMPANY"]}>
                 <CompanyInternshipFormPage />
               </ProtectedRoute>
             }
@@ -220,7 +220,7 @@ export default function App() {
           <Route
             path="/company/applications"
             element={
-              <ProtectedRoute allowedRoles={['COMPANY']}>
+              <ProtectedRoute allowedRoles={["COMPANY"]}>
                 <CompanyApplicationsPage />
               </ProtectedRoute>
             }
@@ -228,7 +228,7 @@ export default function App() {
           <Route
             path="/company/students"
             element={
-              <ProtectedRoute allowedRoles={['COMPANY', 'ADMIN']}>
+              <ProtectedRoute allowedRoles={["COMPANY", "ADMIN"]}>
                 <CompanyStudentDiscoveryPage />
               </ProtectedRoute>
             }
@@ -236,7 +236,7 @@ export default function App() {
           <Route
             path="/company/interviews"
             element={
-              <ProtectedRoute allowedRoles={['COMPANY']}>
+              <ProtectedRoute allowedRoles={["COMPANY"]}>
                 <CompanyInterviewsPage />
               </ProtectedRoute>
             }
@@ -244,7 +244,7 @@ export default function App() {
           <Route
             path="/company/notifications"
             element={
-              <ProtectedRoute allowedRoles={['COMPANY']}>
+              <ProtectedRoute allowedRoles={["COMPANY"]}>
                 <NotificationsCenterPage />
               </ProtectedRoute>
             }
@@ -252,7 +252,7 @@ export default function App() {
           <Route
             path="/company/settings"
             element={
-              <ProtectedRoute allowedRoles={['COMPANY']}>
+              <ProtectedRoute allowedRoles={["COMPANY"]}>
                 <AccountSettingsPage />
               </ProtectedRoute>
             }
@@ -262,7 +262,7 @@ export default function App() {
           <Route
             path="/admin/dashboard"
             element={
-              <ProtectedRoute allowedRoles={['ADMIN']}>
+              <ProtectedRoute allowedRoles={["ADMIN"]}>
                 <AdminDashboardPage />
               </ProtectedRoute>
             }
@@ -270,7 +270,7 @@ export default function App() {
           <Route
             path="/admin/analytics"
             element={
-              <ProtectedRoute allowedRoles={['ADMIN']}>
+              <ProtectedRoute allowedRoles={["ADMIN"]}>
                 <AdminDashboardPage fullAnalytics />
               </ProtectedRoute>
             }
@@ -278,7 +278,7 @@ export default function App() {
           <Route
             path="/admin/verifications"
             element={
-              <ProtectedRoute allowedRoles={['ADMIN']}>
+              <ProtectedRoute allowedRoles={["ADMIN"]}>
                 <AdminVerificationsPage />
               </ProtectedRoute>
             }
@@ -286,7 +286,7 @@ export default function App() {
           <Route
             path="/admin/companies"
             element={
-              <ProtectedRoute allowedRoles={['ADMIN']}>
+              <ProtectedRoute allowedRoles={["ADMIN"]}>
                 <AdminVerificationsPage />
               </ProtectedRoute>
             }
@@ -294,7 +294,7 @@ export default function App() {
           <Route
             path="/admin/students"
             element={
-              <ProtectedRoute allowedRoles={['ADMIN']}>
+              <ProtectedRoute allowedRoles={["ADMIN"]}>
                 <AdminStudentsPage />
               </ProtectedRoute>
             }
@@ -302,7 +302,7 @@ export default function App() {
           <Route
             path="/admin/internships"
             element={
-              <ProtectedRoute allowedRoles={['ADMIN']}>
+              <ProtectedRoute allowedRoles={["ADMIN"]}>
                 <AdminInternshipsPage />
               </ProtectedRoute>
             }
@@ -310,7 +310,7 @@ export default function App() {
           <Route
             path="/admin/universities"
             element={
-              <ProtectedRoute allowedRoles={['ADMIN']}>
+              <ProtectedRoute allowedRoles={["ADMIN"]}>
                 <AdminUniversitiesPage />
               </ProtectedRoute>
             }
@@ -318,7 +318,7 @@ export default function App() {
           <Route
             path="/admin/departments"
             element={
-              <ProtectedRoute allowedRoles={['ADMIN']}>
+              <ProtectedRoute allowedRoles={["ADMIN"]}>
                 <AdminDepartmentsPage />
               </ProtectedRoute>
             }
@@ -326,7 +326,7 @@ export default function App() {
           <Route
             path="/admin/skills"
             element={
-              <ProtectedRoute allowedRoles={['ADMIN']}>
+              <ProtectedRoute allowedRoles={["ADMIN"]}>
                 <AdminSkillsPage />
               </ProtectedRoute>
             }
@@ -334,7 +334,7 @@ export default function App() {
           <Route
             path="/admin/reports"
             element={
-              <ProtectedRoute allowedRoles={['ADMIN']}>
+              <ProtectedRoute allowedRoles={["ADMIN"]}>
                 <AdminReportsPage />
               </ProtectedRoute>
             }
@@ -342,7 +342,7 @@ export default function App() {
           <Route
             path="/admin/settings"
             element={
-              <ProtectedRoute allowedRoles={['ADMIN']}>
+              <ProtectedRoute allowedRoles={["ADMIN"]}>
                 <AccountSettingsPage />
               </ProtectedRoute>
             }
