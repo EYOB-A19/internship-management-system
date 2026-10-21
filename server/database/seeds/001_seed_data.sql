@@ -49,4 +49,6 @@ INSERT INTO skills (name, category) VALUES
   ('AutoCAD', 'Engineering'),
   ('Supply Chain Analytics', 'Operations'),
   ('Flutter', 'Mobile')
+  {'go', 'Programming'},
+ 
 ON CONFLICT (name) DO NOTHING;
