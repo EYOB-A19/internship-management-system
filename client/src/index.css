@@ -1,0 +1,268 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-page: #060910;
+    --color-brand: #f66f14;
+    --color-brand-glow: #ffad75;
+    --color-brand-dark: #b84b06;
+    --color-surface: #0c101d;
+    --color-surface-hover: #13192c;
+    --color-surface-card: #0e1322;
+    --color-stroke: rgba(247, 114, 24, 0.22);
+    --color-stroke-strong: rgba(246, 111, 20, 0.6);
+    --color-text-main: #f8fafc;
+    --color-text-muted: #94a3b8;
+
+    --font-display: 'Fraunces', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'IBM Plex Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: var(--color-text-main);
+    background-color: var(--color-page);
+    min-height: 100vh;
+    overflow-x: hidden;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+
+  .font-mono, .tabular-nums {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* RedSun Signature Radial Lighting & Glow Effects */
+.redsun-bg-radial {
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(246, 111, 20, 0.18) 0%, rgba(6, 9, 16, 0) 55%),
+    radial-gradient(circle at 100% 50%, rgba(255, 173, 117, 0.08) 0%, rgba(6, 9, 16, 0) 45%),
+    radial-gradient(circle at 0% 100%, rgba(234, 56, 76, 0.08) 0%, rgba(6, 9, 16, 0) 50%);
+}
+
+.redsun-hero-lighting {
+  position: absolute;
+  top: -150px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 900px;
+  height: 520px;
+  background: radial-gradient(ellipse at center, rgba(246, 111, 20, 0.32) 0%, rgba(255, 173, 117, 0.12) 38%, rgba(6, 9, 16, 0) 70%);
+  filter: blur(48px);
+  pointer-events: none;
+  z-index: 0;
+  animation: pulseLighting 8s ease-in-out infinite alternate;
+}
+
+@keyframes pulseLighting {
+  0% {
+    opacity: 0.75;
+    transform: translateX(-50%) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(-50%) scale(1.08);
+  }
+}
+
+/* RedSun Styled Box with Inset Warm Glow */
+.redsun-box {
+  background-color: rgba(14, 19, 34, 0.78);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(247, 114, 24, 0.22);
+  border-radius: 16px;
+  box-shadow: 
+    inset 0 -19px 78px 0 rgba(104, 52, 17, 0.28),
+    inset 0 0 29px 0 rgba(255, 255, 255, 0.04),
+    0 12px 35px -8px rgba(0, 0, 0, 0.75),
+    0 0 24px -6px rgba(246, 111, 20, 0.15);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.redsun-box:hover {
+  border-color: rgba(246, 111, 20, 0.55);
+  box-shadow: 
+    inset 0 -19px 78px 0 rgba(104, 52, 17, 0.42),
+    inset 0 0 29px 0 rgba(255, 255, 255, 0.08),
+    0 20px 40px -10px rgba(0, 0, 0, 0.85),
+    0 0 35px rgba(246, 111, 20, 0.3);
+  transform: translateY(-2px);
+}
+
+/* RedSun Radiant Glow Button */
+.button-glow {
+  background: radial-gradient(circle farthest-corner at 50% 100%, #ffad75, #f66f14 78%);
+  color: #ffffff;
+  border: 1px solid #ff9752;
+  border-radius: 12px;
+  font-weight: 600;
+  box-shadow: 
+    inset 0 2px 4px rgba(255, 255, 255, 0.35),
+    inset 0 -4px 8px rgba(120, 40, 0, 0.5),
+    0 0 28px rgba(246, 111, 20, 0.45);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.button-glow:hover {
+  transform: scale(1.035);
+  border-color: #ffd0b0;
+  box-shadow: 
+    inset 0 3px 6px rgba(255, 255, 255, 0.5),
+    inset 0 -4px 10px rgba(120, 40, 0, 0.6),
+    0 8px 36px rgba(246, 111, 20, 0.65);
+}
+
+.button-simple {
+  background-color: rgba(18, 24, 42, 0.85);
+  color: #f1f5f9;
+  border: 1px solid rgba(247, 114, 24, 0.28);
+  border-radius: 12px;
+  font-weight: 500;
+  backdrop-filter: blur(12px);
+  box-shadow: inset 0 -6px 18px rgba(246, 111, 20, 0.15);
+  transition: all 0.28s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.button-simple:hover {
+  border-color: #f66f14;
+  color: #ffffff;
+  transform: scale(1.025);
+  box-shadow: 
+    inset 0 -8px 24px rgba(246, 111, 20, 0.3),
+    0 0 20px rgba(246, 111, 20, 0.28);
+}
+
+/* Subtle Cursor Spotlight Tracker */
+.spotlight-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.spotlight-card::before {
+  content: '';
+  position: absolute;
+  top: var(--mouse-y, -1000px);
+  left: var(--mouse-x, -1000px);
+  width: 420px;
+  height: 420px;
+  background: radial-gradient(circle, rgba(246, 111, 20, 0.2) 0%, rgba(246, 111, 20, 0) 70%);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+.spotlight-card:hover::before {
+  opacity: 1;
+}
+
+/* Floating animation */
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-float {
+  animation: floatSlow 5s ease-in-out infinite;
+}
+
+/* Animated Border Glow */
+@keyframes borderBeam {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-glow-border {
+  background: linear-gradient(90deg, #f66f14, #ffad75, #ea384c, #f66f14);
+  background-size: 300% 300%;
+  animation: borderBeam 6s linear infinite;
+}
+
+/* RedSun Universal Dark Theme Overrides for All System Panels, Modals & Tables */
+.bg-white {
+  background-color: rgba(12, 16, 29, 0.88) !important;
+  color: #f8fafc !important;
+}
+
+.border-slate-200, .border-slate-100 {
+  border-color: rgba(247, 114, 24, 0.22) !important;
+}
+
+.text-slate-900, .text-slate-800, .text-slate-700 {
+  color: #f8fafc !important;
+}
+
+.text-slate-600, .text-slate-500 {
+  color: #94a3b8 !important;
+}
+
+.bg-slate-50, .bg-slate-100 {
+  background-color: rgba(6, 9, 16, 0.75) !important;
+}
+
+.bg-slate-900 {
+  background-color: #0c101d !important;
+  color: #ffffff !important;
+}
+
+.bg-teal-700, .bg-teal-800 {
+  background: radial-gradient(circle farthest-corner at 50% 100%, #ffad75, #f66f14 78%) !important;
+  border: 1px solid #ff9752 !important;
+  color: #ffffff !important;
+  box-shadow: 0 0 20px rgba(246, 111, 20, 0.4) !important;
+}
+
+.text-teal-700, .text-teal-600, .text-teal-800 {
+  color: #ffad75 !important;
+}
+
+input:not([type="checkbox"]):not([type="radio"]), select, textarea {
+  background-color: #060910 !important;
+  color: #f8fafc !important;
+  border-color: rgba(247, 114, 24, 0.3) !important;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #f66f14 !important;
+  box-shadow: 0 0 14px rgba(246, 111, 20, 0.35) !important;
+}
+
+/* Print Styles */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #cv-printable-area,
+  #cv-printable-area * {
+    visibility: visible;
+  }
+  #cv-printable-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    box-shadow: none !important;
+    border: none !important;
+    color: #000 !important;
+    background: #fff !important;
+  }
+}

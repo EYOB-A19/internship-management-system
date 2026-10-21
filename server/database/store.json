@@ -1,0 +1,1773 @@
+{
+  "universities": [
+    {
+      "id": "uni-astu-001",
+      "name": "Adama Science and Technology University",
+      "short_name": "ASTU",
+      "city": "Adama",
+      "region": "Oromia",
+      "website": "https://www.astu.edu.et",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "uni-aau-002",
+      "name": "Addis Ababa University",
+      "short_name": "AAU",
+      "city": "Addis Ababa",
+      "region": "Addis Ababa",
+      "website": "https://www.aau.edu.et",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "uni-aastu-003",
+      "name": "Addis Ababa Science and Technology University",
+      "short_name": "AASTU",
+      "city": "Addis Ababa",
+      "region": "Addis Ababa",
+      "website": "https://www.aastu.edu.et",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "uni-bdu-004",
+      "name": "Bahir Dar University",
+      "short_name": "BDU",
+      "city": "Bahir Dar",
+      "region": "Amhara",
+      "website": "https://www.bdu.edu.et",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "uni-hu-005",
+      "name": "Hawassa University",
+      "short_name": "HU",
+      "city": "Hawassa",
+      "region": "Sidama",
+      "website": "https://www.hu.edu.et",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "uni-ju-006",
+      "name": "Jimma University",
+      "short_name": "JU",
+      "city": "Jimma",
+      "region": "Oromia",
+      "website": "https://www.ju.edu.et",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "uni-mu-007",
+      "name": "Mekelle University",
+      "short_name": "MU",
+      "city": "Mekelle",
+      "region": "Tigray",
+      "website": "https://www.mu.edu.et",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "uni-uog-008",
+      "name": "University of Gondar",
+      "short_name": "UoG",
+      "city": "Gondar",
+      "region": "Amhara",
+      "website": "https://www.uog.edu.et",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "uni-amu-009",
+      "name": "Arba Minch University",
+      "short_name": "AMU",
+      "city": "Arba Minch",
+      "region": "SNNPR",
+      "website": "https://www.amu.edu.et",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    }
+  ],
+  "departments": [
+    {
+      "id": "dept-cse-001",
+      "university_id": "uni-astu-001",
+      "name": "Computer Science and Engineering",
+      "code": "CSE",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "dept-cs-002",
+      "university_id": "uni-aau-002",
+      "name": "Department of Computer Science",
+      "code": "CS",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "dept-se-003",
+      "university_id": "uni-aau-002",
+      "name": "Software Engineering (AAiT)",
+      "code": "SE",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "dept-is-004",
+      "university_id": "uni-aastu-003",
+      "name": "Information Systems",
+      "code": "IS",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "dept-it-005",
+      "university_id": "uni-bdu-004",
+      "name": "Faculty of Computing & Information Technology",
+      "code": "FCIT",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "dept-informatics-006",
+      "university_id": "uni-hu-005",
+      "name": "College of Informatics",
+      "code": "INF",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    }
+  ],
+  "fields_of_study": [
+    {
+      "id": "fos-001",
+      "department_id": "dept-cse-001",
+      "name": "Computer Science",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "fos-002",
+      "department_id": "dept-cse-001",
+      "name": "Software Engineering",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "fos-003",
+      "department_id": "dept-cse-001",
+      "name": "Computer Engineering",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "fos-004",
+      "department_id": "dept-cs-002",
+      "name": "Information Systems",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "fos-005",
+      "department_id": "dept-se-003",
+      "name": "Cybersecurity & Information Assurance",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "fos-006",
+      "department_id": "dept-is-004",
+      "name": "Data Science & Analytics",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "fos-007",
+      "department_id": "dept-it-005",
+      "name": "Human-Computer Interaction (UI/UX)",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    }
+  ],
+  "skills": [
+    {
+      "id": "sk-cyber",
+      "name": "Cybersecurity",
+      "category": "Cybersecurity",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "sk-soc",
+      "name": "SOC Analysis",
+      "category": "Cybersecurity",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "sk-pentest",
+      "name": "Penetration Testing",
+      "category": "Cybersecurity",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "sk-owasp",
+      "name": "OWASP Top 10",
+      "category": "Cybersecurity",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "sk-netsec",
+      "name": "Network Security",
+      "category": "Cybersecurity",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "sk-crypto",
+      "name": "Cryptography",
+      "category": "Cybersecurity",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "sk-appsec",
+      "name": "Application Security",
+      "category": "Cybersecurity",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "sk-react",
+      "name": "React",
+      "category": "Website Development",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "sk-js",
+      "name": "JavaScript",
+      "category": "Website Development",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "sk-node",
+      "name": "Node.js",
+      "category": "Website Development",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "sk-pg",
+      "name": "PostgreSQL",
+      "category": "Website Development",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "sk-express",
+      "name": "Express.js",
+      "category": "Website Development",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "sk-tailwind",
+      "name": "Tailwind CSS",
+      "category": "Website Development",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "sk-rest",
+      "name": "REST APIs",
+      "category": "Website Development",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "sk-git",
+      "name": "Git",
+      "category": "Website Development",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "sk-fullstack",
+      "name": "Full-Stack Development",
+      "category": "Website Development",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "sk-figma",
+      "name": "Figma",
+      "category": "UI/UX Design",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "sk-uiux",
+      "name": "UI/UX Design",
+      "category": "UI/UX Design",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "sk-wireframe",
+      "name": "Wireframing",
+      "category": "UI/UX Design",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "sk-proto",
+      "name": "Interactive Prototyping",
+      "category": "UI/UX Design",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "sk-designsys",
+      "name": "Design Systems",
+      "category": "UI/UX Design",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "sk-usertest",
+      "name": "Usability Testing",
+      "category": "UI/UX Design",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "sk-interaction",
+      "name": "Interaction Design",
+      "category": "UI/UX Design",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "sk-python",
+      "name": "Python",
+      "category": "Data Analysis",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "sk-data",
+      "name": "Data Analysis",
+      "category": "Data Analysis",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "sk-sql",
+      "name": "SQL",
+      "category": "Data Analysis",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "sk-dataviz",
+      "name": "Data Visualization",
+      "category": "Data Analysis",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "sk-pandas",
+      "name": "Pandas",
+      "category": "Data Analysis",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "sk-bi",
+      "name": "Business Intelligence",
+      "category": "Data Analysis",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "sk-stats",
+      "name": "Statistical Modeling",
+      "category": "Data Analysis",
+      "is_active": true,
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "usr-student-eyob",
+      "email": "eyob.aragie@astu.edu.et",
+      "password_hash": "$2b$10$Vjr1.GzWYNr2s2ajw3FhkO2lBZv4oEXHg0ODcvkXI7DRlHEFXS4nG",
+      "role": "STUDENT",
+      "status": "ACTIVE",
+      "last_login_at": "2026-10-21T20:20:24.443Z",
+      "created_at": "2026-08-12T08:00:00.000Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "usr-student-selam",
+      "email": "selamawit.tadesse@aau.edu.et",
+      "password_hash": "$2b$10$Vjr1.GzWYNr2s2ajw3FhkO2lBZv4oEXHg0ODcvkXI7DRlHEFXS4nG",
+      "role": "STUDENT",
+      "status": "ACTIVE",
+      "last_login_at": "2026-10-21T20:20:24.443Z",
+      "created_at": "2026-08-15T09:30:00.000Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "usr-company-chapa",
+      "email": "careers@chapa.co",
+      "password_hash": "$2b$10$Vjr1.GzWYNr2s2ajw3FhkO2lBZv4oEXHg0ODcvkXI7DRlHEFXS4nG",
+      "role": "COMPANY",
+      "status": "ACTIVE",
+      "last_login_at": "2026-10-21T20:20:24.443Z",
+      "created_at": "2026-07-10T10:00:00.000Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "usr-company-gebeya",
+      "email": "talent@gebeya.com",
+      "password_hash": "$2b$10$Vjr1.GzWYNr2s2ajw3FhkO2lBZv4oEXHg0ODcvkXI7DRlHEFXS4nG",
+      "role": "COMPANY",
+      "status": "ACTIVE",
+      "last_login_at": "2026-10-21T20:20:24.443Z",
+      "created_at": "2026-07-14T10:00:00.000Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "usr-company-kifiya",
+      "email": "internships@kifiya.com",
+      "password_hash": "$2b$10$Vjr1.GzWYNr2s2ajw3FhkO2lBZv4oEXHg0ODcvkXI7DRlHEFXS4nG",
+      "role": "COMPANY",
+      "status": "ACTIVE",
+      "last_login_at": "2026-10-21T20:20:24.443Z",
+      "created_at": "2026-07-20T10:00:00.000Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "usr-company-cyber",
+      "email": "soc@cyberguard.et",
+      "password_hash": "$2b$10$Vjr1.GzWYNr2s2ajw3FhkO2lBZv4oEXHg0ODcvkXI7DRlHEFXS4nG",
+      "role": "COMPANY",
+      "status": "ACTIVE",
+      "last_login_at": "2026-10-21T20:20:24.443Z",
+      "created_at": "2026-07-25T10:00:00.000Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "usr-company-bluenile",
+      "email": "founders@blueniletech.et",
+      "password_hash": "$2b$10$Vjr1.GzWYNr2s2ajw3FhkO2lBZv4oEXHg0ODcvkXI7DRlHEFXS4nG",
+      "role": "COMPANY",
+      "status": "ACTIVE",
+      "last_login_at": "2026-10-21T20:20:24.443Z",
+      "created_at": "2026-09-25T10:00:00.000Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "usr-admin-main",
+      "email": "admin@ethiointern.et",
+      "password_hash": "$2b$10$Vjr1.GzWYNr2s2ajw3FhkO2lBZv4oEXHg0ODcvkXI7DRlHEFXS4nG",
+      "role": "ADMIN",
+      "status": "ACTIVE",
+      "last_login_at": "2026-10-21T20:20:24.443Z",
+      "created_at": "2026-07-01T08:00:00.000Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "69ef2961-500a-46a8-b2ec-9a4d11aaafef",
+      "email": "genetwolde1@gmail.com",
+      "password_hash": "$2b$10$2HzkA0Ozmob6z4dM9FSgjOQB95.TbBjiPe7yUg1NiOhv7wht4Ih0a",
+      "role": "STUDENT",
+      "status": "ACTIVE",
+      "last_login_at": "2026-10-21T20:24:16.347Z",
+      "created_at": "2026-10-21T20:24:16.347Z",
+      "updated_at": "2026-10-21T20:24:16.347Z"
+    }
+  ],
+  "student_profiles": [
+    {
+      "id": "stu-eyob-001",
+      "user_id": "usr-student-eyob",
+      "first_name": "Eyob",
+      "father_name": "Aragie",
+      "grandfather_name": "Haile",
+      "phone": "+251 911 234 567",
+      "profile_photo": "",
+      "university_id": "uni-astu-001",
+      "department_id": "dept-cse-001",
+      "field_of_study_id": "fos-001",
+      "academic_level": "BSc",
+      "graduation_year": 2027,
+      "gpa": 3.88,
+      "location": "Addis Ababa",
+      "bio": "Final-year Computer Science & Engineering student at ASTU specializing in Full-Stack Web Development, Node.js REST services, and Application Security. Winner of ASTU Innovation Sprint 2025.",
+      "languages": [
+        "Amharic (Native)",
+        "English (Professional Fluent)",
+        "Afaan Oromoo (Conversational)"
+      ],
+      "availability": "Available immediately for full-time or hybrid internships",
+      "portfolio_url": "https://eyobaragie.dev",
+      "github_url": "https://github.com/eyobaragie",
+      "linkedin_url": "https://linkedin.com/in/eyobaragie",
+      "cv_file_url": "/uploads/eyob-aragie-cv-2026.pdf",
+      "is_portfolio_public": true,
+      "created_at": "2026-08-12T08:30:00.000Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "stu-selam-002",
+      "user_id": "usr-student-selam",
+      "first_name": "Selamawit",
+      "father_name": "Tadesse",
+      "grandfather_name": "Worku",
+      "phone": "+251 922 889 123",
+      "profile_photo": "",
+      "university_id": "uni-aau-002",
+      "department_id": "dept-se-003",
+      "field_of_study_id": "fos-002",
+      "academic_level": "BSc",
+      "graduation_year": 2026,
+      "gpa": 3.92,
+      "location": "Addis Ababa",
+      "bio": "Software Engineering senior at AAiT focused on Data Analysis, SQL performance engineering, and UI/UX product design systems. Passionate about financial inclusion and fintech dashboards.",
+      "languages": [
+        "Amharic (Native)",
+        "English (Professional Fluent)"
+      ],
+      "availability": "Available for full-time 4-month internships",
+      "portfolio_url": "https://selamawit-tadesse.design",
+      "github_url": "https://github.com/selamawitt",
+      "linkedin_url": "https://linkedin.com/in/selamawittadesse",
+      "cv_file_url": "/uploads/selamawit-tadesse-cv-2026.pdf",
+      "is_portfolio_public": true,
+      "created_at": "2026-08-15T10:00:00.000Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "a65d700e-0f4c-473a-9480-c8df98a3a209",
+      "user_id": "69ef2961-500a-46a8-b2ec-9a4d11aaafef",
+      "first_name": "genet",
+      "father_name": "wolde",
+      "grandfather_name": "abera",
+      "phone": "+251 912091324",
+      "profile_photo": "",
+      "university_id": "uni-astu-001",
+      "department_id": "dept-cse-001",
+      "field_of_study_id": "fos-001",
+      "academic_level": "BSc",
+      "graduation_year": 2028,
+      "gpa": null,
+      "location": "Addis Ababa",
+      "bio": "",
+      "languages": [
+        "Amharic",
+        "English"
+      ],
+      "experience": [],
+      "portfolio_url": "",
+      "github_url": "",
+      "linkedin_url": "",
+      "cv_url": "",
+      "availability": "Immediate - Full-time Intern",
+      "is_portfolio_public": true,
+      "expose_contact_info": false,
+      "created_at": "2026-10-21T20:24:16.349Z",
+      "updated_at": "2026-10-21T20:24:16.349Z"
+    }
+  ],
+  "student_skills": [
+    {
+      "id": "ssk-1",
+      "student_id": "stu-eyob-001",
+      "skill_id": "sk-react",
+      "proficiency": "Advanced",
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "ssk-2",
+      "student_id": "stu-eyob-001",
+      "skill_id": "sk-js",
+      "proficiency": "Advanced",
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "ssk-3",
+      "student_id": "stu-eyob-001",
+      "skill_id": "sk-node",
+      "proficiency": "Advanced",
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "ssk-4",
+      "student_id": "stu-eyob-001",
+      "skill_id": "sk-pg",
+      "proficiency": "Advanced",
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "ssk-5",
+      "student_id": "stu-eyob-001",
+      "skill_id": "sk-express",
+      "proficiency": "Advanced",
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "ssk-6",
+      "student_id": "stu-eyob-001",
+      "skill_id": "sk-rest",
+      "proficiency": "Advanced",
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "ssk-7",
+      "student_id": "stu-eyob-001",
+      "skill_id": "sk-tailwind",
+      "proficiency": "Advanced",
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "ssk-8",
+      "student_id": "stu-eyob-001",
+      "skill_id": "sk-git",
+      "proficiency": "Advanced",
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "ssk-9",
+      "student_id": "stu-eyob-001",
+      "skill_id": "sk-cyber",
+      "proficiency": "Intermediate",
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "ssk-10",
+      "student_id": "stu-eyob-001",
+      "skill_id": "sk-owasp",
+      "proficiency": "Intermediate",
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "ssk-11",
+      "student_id": "stu-selam-002",
+      "skill_id": "sk-figma",
+      "proficiency": "Advanced",
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "ssk-12",
+      "student_id": "stu-selam-002",
+      "skill_id": "sk-uiux",
+      "proficiency": "Advanced",
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "ssk-13",
+      "student_id": "stu-selam-002",
+      "skill_id": "sk-designsys",
+      "proficiency": "Advanced",
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "ssk-14",
+      "student_id": "stu-selam-002",
+      "skill_id": "sk-python",
+      "proficiency": "Advanced",
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "ssk-15",
+      "student_id": "stu-selam-002",
+      "skill_id": "sk-data",
+      "proficiency": "Advanced",
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "ssk-16",
+      "student_id": "stu-selam-002",
+      "skill_id": "sk-sql",
+      "proficiency": "Advanced",
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "ssk-17",
+      "student_id": "stu-selam-002",
+      "skill_id": "sk-dataviz",
+      "proficiency": "Advanced",
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "8fe651b5-6b79-4de7-b4fc-b4124f3af5f5",
+      "student_id": "a65d700e-0f4c-473a-9480-c8df98a3a209",
+      "skill_id": "sk-react",
+      "proficiency": "Intermediate",
+      "created_at": "2026-10-21T20:24:16.350Z"
+    },
+    {
+      "id": "0dbaa881-91bd-4d81-ad5c-88e607a0e09b",
+      "student_id": "a65d700e-0f4c-473a-9480-c8df98a3a209",
+      "skill_id": "sk-node",
+      "proficiency": "Intermediate",
+      "created_at": "2026-10-21T20:24:16.350Z"
+    },
+    {
+      "id": "5a10afd4-51a7-4c2f-b9be-a1e171382c5e",
+      "student_id": "a65d700e-0f4c-473a-9480-c8df98a3a209",
+      "skill_id": "sk-pg",
+      "proficiency": "Intermediate",
+      "created_at": "2026-10-21T20:24:16.350Z"
+    },
+    {
+      "id": "7abaa030-061e-41fd-a372-7daf1c349ca7",
+      "student_id": "a65d700e-0f4c-473a-9480-c8df98a3a209",
+      "skill_id": "sk-js",
+      "proficiency": "Intermediate",
+      "created_at": "2026-10-21T20:24:16.350Z"
+    },
+    {
+      "id": "9dc00cfa-63e6-4677-a226-4fa2c89efb83",
+      "student_id": "a65d700e-0f4c-473a-9480-c8df98a3a209",
+      "skill_id": "sk-pandas",
+      "proficiency": "Intermediate",
+      "created_at": "2026-10-21T20:24:16.350Z"
+    },
+    {
+      "id": "908d82b6-f0b2-4488-b1ba-4a3df64ae3b7",
+      "student_id": "a65d700e-0f4c-473a-9480-c8df98a3a209",
+      "skill_id": "sk-express",
+      "proficiency": "Intermediate",
+      "created_at": "2026-10-21T20:24:16.350Z"
+    },
+    {
+      "id": "ad90f625-160e-4942-b1a6-5487f42dfd41",
+      "student_id": "a65d700e-0f4c-473a-9480-c8df98a3a209",
+      "skill_id": "sk-python",
+      "proficiency": "Intermediate",
+      "created_at": "2026-10-21T20:24:16.350Z"
+    },
+    {
+      "id": "c1bfacc2-5600-455f-be25-b5e0b71c8b8a",
+      "student_id": "a65d700e-0f4c-473a-9480-c8df98a3a209",
+      "skill_id": "sk-sql",
+      "proficiency": "Intermediate",
+      "created_at": "2026-10-21T20:24:16.350Z"
+    },
+    {
+      "id": "3fa40cb4-33d0-4258-b16f-d8c9fdfb340d",
+      "student_id": "a65d700e-0f4c-473a-9480-c8df98a3a209",
+      "skill_id": "sk-tailwind",
+      "proficiency": "Intermediate",
+      "created_at": "2026-10-21T20:24:16.350Z"
+    }
+  ],
+  "student_education": [
+    {
+      "id": "edu-eyob-1",
+      "student_id": "stu-eyob-001",
+      "institution_name": "Adama Science and Technology University (ASTU)",
+      "degree": "BSc",
+      "field_of_study": "Computer Science and Engineering",
+      "start_year": 2023,
+      "end_year": 2027,
+      "is_current": true,
+      "grade": "3.88 GPA",
+      "description": "Coursework in Software Architecture, Relational Database Systems, Network Security, and Distributed Systems.",
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "edu-selam-1",
+      "student_id": "stu-selam-002",
+      "institution_name": "Addis Ababa University (AAiT)",
+      "degree": "BSc",
+      "field_of_study": "Software Engineering",
+      "start_year": 2022,
+      "end_year": 2026,
+      "is_current": true,
+      "grade": "3.92 GPA",
+      "description": "Honors list standing. Focus on Data Engineering, Human-Centered Interaction Design, and Statistical Computing.",
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    }
+  ],
+  "student_projects": [
+    {
+      "id": "proj-eyob-1",
+      "student_id": "stu-eyob-001",
+      "title": "EthioPay Merchant Reconciliation Ledger",
+      "description": "Full-stack audit and payment reconciliation portal processing simulated Telebirr and CBE merchant webhooks with cryptographic SHA-256 HMAC signature validation.",
+      "technologies": [
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "Tailwind CSS",
+        "Express.js",
+        "REST APIs"
+      ],
+      "project_url": "https://ethiopay-demo.et",
+      "github_url": "https://github.com/eyobaragie/ethiopay-ledger",
+      "images": [],
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "proj-selam-1",
+      "student_id": "stu-selam-002",
+      "title": "Ethiopian Commodity Exchange (ECX) Coffee Price Predictor & Visualizer",
+      "description": "Interactive analytics dashboard and time-series model analyzing Sidama and Yirgacheffe export auction grades across 10 years of trading data.",
+      "technologies": [
+        "Python",
+        "SQL",
+        "PostgreSQL",
+        "Data Visualization",
+        "Figma",
+        "UI/UX Design"
+      ],
+      "project_url": "https://ecx-coffee-insights.et",
+      "github_url": "https://github.com/selamawitt/ecx-coffee-insights",
+      "images": [],
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    }
+  ],
+  "student_certifications": [
+    {
+      "id": "cert-eyob-1",
+      "student_id": "stu-eyob-001",
+      "name": "Certified Application Security & Web Penetration Tester",
+      "issuer": "Information Network Security Agency (INSA Ethiopia)",
+      "issue_date": "2025-11-10",
+      "credential_url": "https://insa.gov.et/verify/SEC-2025-9941",
+      "certificate_file_url": "/uploads/eyob-insa-cert.pdf",
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "cert-selam-1",
+      "student_id": "stu-selam-002",
+      "name": "Advanced Design Systems & Accessibility Specialist",
+      "issuer": "Interaction Design Foundation (IxDF)",
+      "issue_date": "2025-08-15",
+      "credential_url": "https://ixdf.org/verify/9924-SELAM",
+      "certificate_file_url": "/uploads/selam-ixdf-cert.pdf",
+      "created_at": "2026-10-21T20:20:24.443Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    }
+  ],
+  "companies": [
+    {
+      "id": "comp-chapa-001",
+      "user_id": "usr-company-chapa",
+      "company_name": "Chapa Financial Technologies S.C.",
+      "logo_url": "",
+      "description": "Chapa builds modern payment infrastructure and high-volume financial APIs empowering Ethiopian businesses to accept digital payments seamlessly across Telebirr, CBE, and international cards.",
+      "industry": "FinTech & Digital Payments",
+      "website": "https://chapa.co",
+      "email": "careers@chapa.co",
+      "phone": "+251 116 672 900",
+      "location": "Addis Ababa",
+      "address": "Bole Sub-City, Woreda 03, Friendly Building 6th Floor, Addis Ababa",
+      "company_size": "50-200 employees",
+      "founded_year": 2020,
+      "tin_number": "ET-TIN-0048291042",
+      "business_license_url": "/uploads/chapa-license.pdf",
+      "social_links": {
+        "linkedin": "https://linkedin.com/company/chapa-et",
+        "github": "https://github.com/Chapa-Et"
+      },
+      "verification_status": "APPROVED",
+      "verified_at": "2026-07-12T09:00:00.000Z",
+      "verified_by": "usr-admin-main",
+      "verification_notes": "Verified Ministry of Trade & Regional Integration registration and TIN certificate.",
+      "created_at": "2026-07-10T10:00:00.000Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "comp-gebeya-002",
+      "user_id": "usr-company-gebeya",
+      "company_name": "Gebeya Talent & Cloud Solutions",
+      "logo_url": "",
+      "description": "Pan-African SaaS and talent cloud platform headquartered in Addis Ababa, building cutting-edge web applications, UI/UX design systems, and cloud software engineering teams.",
+      "industry": "Enterprise Software & Cloud",
+      "website": "https://gebeya.com",
+      "email": "talent@gebeya.com",
+      "phone": "+251 116 184 400",
+      "location": "Addis Ababa",
+      "address": "Welo Sefer, Ethio-China Friendship Avenue, Addis Ababa",
+      "company_size": "200-500 employees",
+      "founded_year": 2016,
+      "tin_number": "ET-TIN-0039104481",
+      "business_license_url": "/uploads/gebeya-license.pdf",
+      "social_links": {
+        "linkedin": "https://linkedin.com/company/gebeya"
+      },
+      "verification_status": "APPROVED",
+      "verified_at": "2026-07-15T11:30:00.000Z",
+      "verified_by": "usr-admin-main",
+      "verification_notes": "Verified corporate trade license and university partnership MOU.",
+      "created_at": "2026-07-14T10:00:00.000Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "comp-kifiya-003",
+      "user_id": "usr-company-kifiya",
+      "company_name": "Kifiya Financial Technology PLC",
+      "logo_url": "",
+      "description": "Pioneering AI-driven credit scoring, data analysis pipelines, and digital financial platforms serving smallholder farmers and MSMEs across Ethiopia.",
+      "industry": "AgriTech & Digital Finance",
+      "website": "https://kifiya.com",
+      "email": "internships@kifiya.com",
+      "phone": "+251 116 679 100",
+      "location": "Addis Ababa",
+      "address": "Kazanchis, Guinea Conakry Street, Addis Ababa",
+      "company_size": "200-500 employees",
+      "founded_year": 2010,
+      "tin_number": "ET-TIN-0019283745",
+      "business_license_url": "/uploads/kifiya-license.pdf",
+      "social_links": {
+        "linkedin": "https://linkedin.com/company/kifiya-financial-technology"
+      },
+      "verification_status": "APPROVED",
+      "verified_at": "2026-07-22T14:00:00.000Z",
+      "verified_by": "usr-admin-main",
+      "verification_notes": "Approved after TIN and HR representative verification.",
+      "created_at": "2026-07-20T10:00:00.000Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "comp-ethio-cyber-004",
+      "user_id": "usr-company-cyber",
+      "company_name": "CyberGuard Ethiopia Defense & SOC",
+      "logo_url": "",
+      "description": "Enterprise cybersecurity defense firm delivering 24/7 Security Operations Center (SOC) monitoring, threat intelligence, and application penetration testing for financial institutions.",
+      "industry": "Cybersecurity & Defense",
+      "website": "https://cyberguard.et",
+      "email": "soc@cyberguard.et",
+      "phone": "+251 115 581 200",
+      "location": "Addis Ababa",
+      "address": "Bole Medhanialem, Morning Star Mall 8th Floor, Addis Ababa",
+      "company_size": "50-100 employees",
+      "founded_year": 2021,
+      "tin_number": "ET-TIN-0077819234",
+      "business_license_url": "/uploads/cyberguard-license.pdf",
+      "social_links": {
+        "linkedin": "https://linkedin.com/company/cyberguard-et"
+      },
+      "verification_status": "APPROVED",
+      "verified_at": "2026-07-26T10:00:00.000Z",
+      "verified_by": "usr-admin-main",
+      "verification_notes": "Verified INSA security accreditation and commercial license.",
+      "created_at": "2026-07-25T10:00:00.000Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "comp-bluenile-005",
+      "user_id": "usr-company-bluenile",
+      "company_name": "BlueNile Engineering & Robotics PLC",
+      "logo_url": "",
+      "description": "Developing IoT irrigation controllers and telemetry hardware with web analytics portals for agribusiness in the Lake Tana basin.",
+      "industry": "AgriTech & Embedded Systems",
+      "website": "https://blueniletech.et",
+      "email": "founders@blueniletech.et",
+      "phone": "+251 582 209 310",
+      "location": "Bahir Dar",
+      "address": "Kebele 14, Tana Innovation Hub, Bahir Dar",
+      "company_size": "10-50 employees",
+      "founded_year": 2024,
+      "tin_number": "ET-TIN-0089412098",
+      "business_license_url": "/uploads/bluenile-license.pdf",
+      "social_links": {},
+      "verification_status": "PENDING",
+      "verified_at": null,
+      "verified_by": null,
+      "verification_notes": "Awaiting commercial registration renewal review.",
+      "created_at": "2026-09-25T10:00:00.000Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    }
+  ],
+  "company_verifications": [
+    {
+      "id": "ver-001",
+      "company_id": "comp-chapa-001",
+      "submitted_by": "usr-company-chapa",
+      "tin_number": "ET-TIN-0048291042",
+      "registration_number": "MTI/AA/2020/99481",
+      "document_url": "/uploads/chapa-license.pdf",
+      "notes": "Official commercial license and TIN verification.",
+      "status": "APPROVED",
+      "reviewed_by": "usr-admin-main",
+      "reviewed_at": "2026-07-12T09:00:00.000Z",
+      "review_notes": "Verified against Ministry of Trade business registry.",
+      "created_at": "2026-07-10T11:00:00.000Z",
+      "updated_at": "2026-07-12T09:00:00.000Z"
+    },
+    {
+      "id": "ver-002",
+      "company_id": "comp-bluenile-005",
+      "submitted_by": "usr-company-bluenile",
+      "tin_number": "ET-TIN-0089412098",
+      "registration_number": "AMH/BD/2024/11802",
+      "document_url": "/uploads/bluenile-license.pdf",
+      "notes": "Requesting verified badge to recruit university engineering interns.",
+      "status": "PENDING",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "review_notes": null,
+      "created_at": "2026-09-25T10:30:00.000Z",
+      "updated_at": "2026-09-25T10:30:00.000Z"
+    }
+  ],
+  "internships": [
+    {
+      "id": "int-cyber-soc-001",
+      "company_id": "comp-ethio-cyber-004",
+      "category": "Cybersecurity",
+      "title": "Cybersecurity SOC Analyst & Threat Defense Intern",
+      "description": "Join CyberGuard Ethiopia’s 24/7 Security Operations Center. You will investigate real-world network anomalies, monitor SIEM security alerts, perform OWASP Top 10 vulnerability scans on banking portals, and draft incident triage reports.",
+      "department_team": "Threat Intelligence & SOC Operations",
+      "location": "Addis Ababa",
+      "work_mode": "On-site",
+      "duration": "4 Months",
+      "duration_months": 4,
+      "start_date": "2026-11-01",
+      "application_deadline": "2026-10-31",
+      "positions": 3,
+      "academic_levels": [
+        "BSc",
+        "MSc"
+      ],
+      "fields_of_study": [
+        "Computer Science",
+        "Cybersecurity & Information Assurance",
+        "Software Engineering"
+      ],
+      "minimum_requirements": "Solid understanding of Network Security, TCP/IP fundamentals, Linux shell navigation, and OWASP Top 10 web vulnerabilities.",
+      "responsibilities": "Analyze real-time firewall and server intrusion logs; validate web application vulnerabilities using automated security scanners; conduct log triage under senior SOC analyst guidance.",
+      "benefits": "Monthly stipend of 9,000 ETB, hands-on exposure to enterprise SIEM platforms, and direct qualification for junior cyber defense engineer openings.",
+      "stipend_amount": 9000,
+      "stipend_currency": "ETB",
+      "is_paid": true,
+      "application_instructions": "Submit your CV and summarize any security labs (TryHackMe, HackTheBox, or university coursework) you have completed.",
+      "status": "Published",
+      "views_count": 412,
+      "created_at": "2026-09-15T09:00:00.000Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "int-cyber-appsec-002",
+      "company_id": "comp-chapa-001",
+      "category": "Cybersecurity",
+      "title": "Application Security & Web Penetration Testing Intern",
+      "description": "Work with Chapa’s Platform Security Guild in Addis Ababa to review payment APIs, verify cryptographic token signatures, execute penetration tests on merchant checkout workflows, and audit Node.js and React codebases for authorization flaws.",
+      "department_team": "Product Security & Cryptographic Compliance",
+      "location": "Addis Ababa",
+      "work_mode": "Hybrid",
+      "duration": "4 Months",
+      "duration_months": 4,
+      "start_date": "2026-11-15",
+      "application_deadline": "2026-11-05",
+      "positions": 2,
+      "academic_levels": [
+        "BSc",
+        "MSc"
+      ],
+      "fields_of_study": [
+        "Computer Science",
+        "Software Engineering",
+        "Cybersecurity & Information Assurance"
+      ],
+      "minimum_requirements": "Proficiency in JavaScript/Node.js, REST API architectures, Cryptography basics (HMAC/SHA-256), and Burp Suite or OWASP ZAP fundamentals.",
+      "responsibilities": "Perform dynamic application security tests (DAST) on webhook dispatchers; audit JWT expiration and token storage schemes; collaborate with developers to fix identified flaws.",
+      "benefits": "Monthly stipend of 9,500 ETB, daily lunch at our Bole tech campus, and mentorship from senior FinTech security architects.",
+      "stipend_amount": 9500,
+      "stipend_currency": "ETB",
+      "is_paid": true,
+      "application_instructions": "Include any code security audits or penetration testing write-ups you have prepared.",
+      "status": "Published",
+      "views_count": 365,
+      "created_at": "2026-09-18T10:00:00.000Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "int-web-fullstack-003",
+      "company_id": "comp-chapa-001",
+      "category": "Website Development",
+      "title": "Full-Stack Web Developer Intern (React & Node.js)",
+      "description": "Build mission-critical merchant interfaces, webhook monitors, and transaction reconciliation tools serving Ethiopian businesses on Chapa’s digital payment gateway.",
+      "department_team": "Merchant Platform Engineering",
+      "location": "Addis Ababa",
+      "work_mode": "Hybrid",
+      "duration": "4 Months",
+      "duration_months": 4,
+      "start_date": "2026-11-01",
+      "application_deadline": "2026-10-30",
+      "positions": 4,
+      "academic_levels": [
+        "BSc",
+        "MSc"
+      ],
+      "fields_of_study": [
+        "Computer Science",
+        "Software Engineering",
+        "Computer Engineering"
+      ],
+      "minimum_requirements": "Strong grasp of modern JavaScript (ES6+), React hooks and state management, Node.js Express servers, and PostgreSQL query construction.",
+      "responsibilities": "Develop high-performance React dashboard views with Tailwind CSS; build secure parameterized REST endpoints; write unit and integration tests; review pull requests.",
+      "benefits": "8,500 ETB monthly stipend, daily Bole office lunch, senior engineering mentorship, and fast-track consideration for full-time graduate software roles.",
+      "stipend_amount": 8500,
+      "stipend_currency": "ETB",
+      "is_paid": true,
+      "application_instructions": "Attach your CV and provide GitHub links to full-stack web applications you have authored.",
+      "status": "Published",
+      "views_count": 520,
+      "created_at": "2026-09-16T11:00:00.000Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "int-web-frontend-004",
+      "company_id": "comp-gebeya-002",
+      "category": "Website Development",
+      "title": "Frontend Web Applications & UI Engineering Intern",
+      "description": "Craft high-speed responsive web applications and reusable component libraries for Gebeya’s Pan-African talent marketplace and client portals.",
+      "department_team": "Talent Marketplace Web Squad",
+      "location": "Addis Ababa",
+      "work_mode": "Remote",
+      "duration": "3 Months",
+      "duration_months": 3,
+      "start_date": "2026-11-10",
+      "application_deadline": "2026-11-02",
+      "positions": 3,
+      "academic_levels": [
+        "BSc",
+        "BA"
+      ],
+      "fields_of_study": [
+        "Computer Science",
+        "Software Engineering",
+        "Information Systems"
+      ],
+      "minimum_requirements": "Hands-on experience building clean web interfaces with React, JavaScript, and Tailwind CSS. Solid understanding of browser rendering and Git.",
+      "responsibilities": "Implement pixel-perfect web pages from Figma specifications; build accessible modular component primitives; optimize client-side bundle performance.",
+      "benefits": "7,500 ETB monthly stipend + 1,500 ETB internet connectivity allowance, flexible remote schedule compatible with university coursework.",
+      "stipend_amount": 7500,
+      "stipend_currency": "ETB",
+      "is_paid": true,
+      "application_instructions": "Provide links to live web projects or responsive web portfolio demonstrations.",
+      "status": "Published",
+      "views_count": 388,
+      "created_at": "2026-09-19T14:20:00.000Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "int-uiux-designsys-005",
+      "company_id": "comp-gebeya-002",
+      "category": "UI/UX Design",
+      "title": "Product UI/UX & Design Systems Intern",
+      "description": "Collaborate with product managers and engineers to design user-centric web and mobile experiences. You will maintain Gebeya’s Figma design system tokens, build interactive high-fidelity prototypes, and conduct usability testing with African enterprise users.",
+      "department_team": "Design Systems & Product Experience",
+      "location": "Addis Ababa",
+      "work_mode": "Hybrid",
+      "duration": "3 Months",
+      "duration_months": 3,
+      "start_date": "2026-11-15",
+      "application_deadline": "2026-11-08",
+      "positions": 2,
+      "academic_levels": [
+        "BSc",
+        "BA"
+      ],
+      "fields_of_study": [
+        "Human-Computer Interaction (UI/UX)",
+        "Software Engineering",
+        "Computer Science"
+      ],
+      "minimum_requirements": "Proficiency in Figma (auto-layout, components, variants, design tokens), user research methodology, and wireframing for web applications.",
+      "responsibilities": "Build structured component libraries in Figma; create clickable interactive flow prototypes; organize usability testing feedback into actionable design enhancements.",
+      "benefits": "8,000 ETB monthly stipend, Figma Enterprise license access, and mentorship from lead product designers.",
+      "stipend_amount": 8000,
+      "stipend_currency": "ETB",
+      "is_paid": true,
+      "application_instructions": "Share your Figma portfolio link or case study showcasing your end-to-end design thinking.",
+      "status": "Published",
+      "views_count": 340,
+      "created_at": "2026-09-21T09:30:00.000Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "int-uiux-mobile-006",
+      "company_id": "comp-kifiya-003",
+      "category": "UI/UX Design",
+      "title": "Digital Product Experience & Mobile Interface Designer Intern",
+      "description": "Design intuitive, accessible digital experiences for smallholder farmers and micro-merchants using Kifiya’s digital agriculture and credit scoring platforms across regional Ethiopian languages.",
+      "department_team": "Digital Financial Inclusion Experience",
+      "location": "Addis Ababa",
+      "work_mode": "On-site",
+      "duration": "4 Months",
+      "duration_months": 4,
+      "start_date": "2026-11-20",
+      "application_deadline": "2026-11-10",
+      "positions": 2,
+      "academic_levels": [
+        "BSc",
+        "BA"
+      ],
+      "fields_of_study": [
+        "Human-Computer Interaction (UI/UX)",
+        "Information Systems",
+        "Computer Science"
+      ],
+      "minimum_requirements": "Figma expertise, deep empathy for non-technical users, mobile web design awareness, and typography hierarchy skills.",
+      "responsibilities": "Produce responsive mobile layouts and low-bandwidth UI components; create journey maps for first-time digital loan applicants; design localized Amharic and Afaan Oromoo interfaces.",
+      "benefits": "7,500 ETB monthly stipend, transport allowance, and real-world impact improving financial inclusion.",
+      "stipend_amount": 7500,
+      "stipend_currency": "ETB",
+      "is_paid": true,
+      "application_instructions": "Submit a portfolio featuring mobile interfaces or user research exercises.",
+      "status": "Published",
+      "views_count": 295,
+      "created_at": "2026-09-23T11:45:00.000Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "int-data-fintech-007",
+      "company_id": "comp-kifiya-003",
+      "category": "Data Analysis",
+      "title": "Business Intelligence & Financial Data Analyst Intern",
+      "description": "Analyze millions of transaction records, loan repayment cycles, and regional credit scoring parameters. You will write complex analytical SQL queries, build interactive Recharts/PowerBI dashboards, and extract actionable business insights.",
+      "department_team": "Data Intelligence & Analytics Squad",
+      "location": "Addis Ababa",
+      "work_mode": "On-site",
+      "duration": "4 Months",
+      "duration_months": 4,
+      "start_date": "2026-11-15",
+      "application_deadline": "2026-11-05",
+      "positions": 3,
+      "academic_levels": [
+        "BSc",
+        "MSc"
+      ],
+      "fields_of_study": [
+        "Data Science & Analytics",
+        "Computer Science",
+        "Software Engineering"
+      ],
+      "minimum_requirements": "Strong foundation in Python (Pandas/NumPy), relational SQL / PostgreSQL queries (joins, window functions), and exploratory data visualization.",
+      "responsibilities": "Write automated SQL queries tracking merchant retention cohorts; design KPI dashboards for regional cooperative unions; clean and prepare datasets for predictive models.",
+      "benefits": "8,500 ETB monthly stipend, transportation allowance, and experience on nationally deployed financial analytics data pipelines.",
+      "stipend_amount": 8500,
+      "stipend_currency": "ETB",
+      "is_paid": true,
+      "application_instructions": "Share code or a notebook demonstrating data cleaning, SQL queries, or data visualization.",
+      "status": "Published",
+      "views_count": 430,
+      "created_at": "2026-09-20T08:45:00.000Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "int-data-corridor-008",
+      "company_id": "comp-chapa-001",
+      "category": "Data Analysis",
+      "title": "Data Analytics & Predictive Operations Intern",
+      "description": "Analyze payment failure rates, peak transaction volumes, and network latency patterns across telecom billing channels to enhance payment completion rates across Ethiopia.",
+      "department_team": "Payment Reliability & Data Science",
+      "location": "Addis Ababa",
+      "work_mode": "Hybrid",
+      "duration": "4 Months",
+      "duration_months": 4,
+      "start_date": "2026-11-20",
+      "application_deadline": "2026-11-12",
+      "positions": 2,
+      "academic_levels": [
+        "BSc",
+        "MSc"
+      ],
+      "fields_of_study": [
+        "Data Science & Analytics",
+        "Computer Science",
+        "Software Engineering"
+      ],
+      "minimum_requirements": "Python data analysis, PostgreSQL, Statistical Modeling, and experience graphing metrics with Recharts or Matplotlib.",
+      "responsibilities": "Analyze daily transaction error codes and telecom gateway latency; prepare automated weekly executive performance digests; model churn risk indicators.",
+      "benefits": "8,000 ETB monthly stipend, office meals, and access to modern data warehousing tools.",
+      "stipend_amount": 8000,
+      "stipend_currency": "ETB",
+      "is_paid": true,
+      "application_instructions": "Provide an example analytical study, Python script, or academic SQL report.",
+      "status": "Published",
+      "views_count": 310,
+      "created_at": "2026-09-24T10:15:00.000Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    }
+  ],
+  "internship_skills": [
+    {
+      "id": "isk-1",
+      "internship_id": "int-cyber-soc-001",
+      "skill_id": "sk-cyber",
+      "is_required": true,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-2",
+      "internship_id": "int-cyber-soc-001",
+      "skill_id": "sk-soc",
+      "is_required": true,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-3",
+      "internship_id": "int-cyber-soc-001",
+      "skill_id": "sk-owasp",
+      "is_required": true,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-4",
+      "internship_id": "int-cyber-soc-001",
+      "skill_id": "sk-netsec",
+      "is_required": true,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-5",
+      "internship_id": "int-cyber-soc-001",
+      "skill_id": "sk-python",
+      "is_required": false,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-6",
+      "internship_id": "int-cyber-appsec-002",
+      "skill_id": "sk-cyber",
+      "is_required": true,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-7",
+      "internship_id": "int-cyber-appsec-002",
+      "skill_id": "sk-appsec",
+      "is_required": true,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-8",
+      "internship_id": "int-cyber-appsec-002",
+      "skill_id": "sk-owasp",
+      "is_required": true,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-9",
+      "internship_id": "int-cyber-appsec-002",
+      "skill_id": "sk-crypto",
+      "is_required": true,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-10",
+      "internship_id": "int-cyber-appsec-002",
+      "skill_id": "sk-node",
+      "is_required": false,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-11",
+      "internship_id": "int-web-fullstack-003",
+      "skill_id": "sk-react",
+      "is_required": true,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-12",
+      "internship_id": "int-web-fullstack-003",
+      "skill_id": "sk-js",
+      "is_required": true,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-13",
+      "internship_id": "int-web-fullstack-003",
+      "skill_id": "sk-node",
+      "is_required": true,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-14",
+      "internship_id": "int-web-fullstack-003",
+      "skill_id": "sk-pg",
+      "is_required": true,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-15",
+      "internship_id": "int-web-fullstack-003",
+      "skill_id": "sk-tailwind",
+      "is_required": false,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-16",
+      "internship_id": "int-web-fullstack-003",
+      "skill_id": "sk-rest",
+      "is_required": false,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-17",
+      "internship_id": "int-web-frontend-004",
+      "skill_id": "sk-react",
+      "is_required": true,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-18",
+      "internship_id": "int-web-frontend-004",
+      "skill_id": "sk-js",
+      "is_required": true,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-19",
+      "internship_id": "int-web-frontend-004",
+      "skill_id": "sk-tailwind",
+      "is_required": true,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-20",
+      "internship_id": "int-web-frontend-004",
+      "skill_id": "sk-git",
+      "is_required": false,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-21",
+      "internship_id": "int-uiux-designsys-005",
+      "skill_id": "sk-figma",
+      "is_required": true,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-22",
+      "internship_id": "int-uiux-designsys-005",
+      "skill_id": "sk-uiux",
+      "is_required": true,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-23",
+      "internship_id": "int-uiux-designsys-005",
+      "skill_id": "sk-designsys",
+      "is_required": true,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-24",
+      "internship_id": "int-uiux-designsys-005",
+      "skill_id": "sk-wireframe",
+      "is_required": false,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-25",
+      "internship_id": "int-uiux-mobile-006",
+      "skill_id": "sk-figma",
+      "is_required": true,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-26",
+      "internship_id": "int-uiux-mobile-006",
+      "skill_id": "sk-uiux",
+      "is_required": true,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-27",
+      "internship_id": "int-uiux-mobile-006",
+      "skill_id": "sk-interaction",
+      "is_required": true,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-28",
+      "internship_id": "int-uiux-mobile-006",
+      "skill_id": "sk-usertest",
+      "is_required": false,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-29",
+      "internship_id": "int-data-fintech-007",
+      "skill_id": "sk-python",
+      "is_required": true,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-30",
+      "internship_id": "int-data-fintech-007",
+      "skill_id": "sk-data",
+      "is_required": true,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-31",
+      "internship_id": "int-data-fintech-007",
+      "skill_id": "sk-sql",
+      "is_required": true,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-32",
+      "internship_id": "int-data-fintech-007",
+      "skill_id": "sk-pg",
+      "is_required": true,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-33",
+      "internship_id": "int-data-fintech-007",
+      "skill_id": "sk-bi",
+      "is_required": false,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-34",
+      "internship_id": "int-data-corridor-008",
+      "skill_id": "sk-data",
+      "is_required": true,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-35",
+      "internship_id": "int-data-corridor-008",
+      "skill_id": "sk-python",
+      "is_required": true,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-36",
+      "internship_id": "int-data-corridor-008",
+      "skill_id": "sk-sql",
+      "is_required": true,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "isk-37",
+      "internship_id": "int-data-corridor-008",
+      "skill_id": "sk-dataviz",
+      "is_required": false,
+      "created_at": "2026-10-21T20:20:24.443Z"
+    }
+  ],
+  "applications": [
+    {
+      "id": "app-eyob-web-001",
+      "student_id": "stu-eyob-001",
+      "internship_id": "int-web-fullstack-003",
+      "cv_url": "/uploads/eyob-aragie-cv-2026.pdf",
+      "cover_letter": "Dear Chapa Engineering Team, as an ASTU Computer Science senior who engineered the EthioPay Merchant Ledger using React, Node.js, and PostgreSQL, I am eager to contribute to Chapa’s merchant checkout and settlement platform.",
+      "availability_note": "Available immediately for 4 months full-time / hybrid in Addis Ababa.",
+      "match_score": 100,
+      "status": "Interview",
+      "company_notes": "Exceptional full-stack skillset and payment project experience. Invited to technical interview.",
+      "submitted_at": "2026-09-20T10:15:00.000Z",
+      "reviewed_at": "2026-09-24T15:30:00.000Z",
+      "updated_at": "2026-09-28T09:00:00.000Z"
+    },
+    {
+      "id": "app-eyob-cyber-002",
+      "student_id": "stu-eyob-001",
+      "internship_id": "int-cyber-appsec-002",
+      "cv_url": "/uploads/eyob-aragie-cv-2026.pdf",
+      "cover_letter": "Certified by INSA with hands-on web application vulnerability testing skills, I am keen to audit Chapa payment gateway APIs and webhook endpoints.",
+      "availability_note": "Available for 4 months hybrid.",
+      "match_score": 92,
+      "status": "Shortlisted",
+      "company_notes": "Strong AppSec profile and INSA credentials.",
+      "submitted_at": "2026-09-22T14:00:00.000Z",
+      "reviewed_at": "2026-09-26T11:00:00.000Z",
+      "updated_at": "2026-09-26T11:00:00.000Z"
+    },
+    {
+      "id": "app-selam-uiux-003",
+      "student_id": "stu-selam-002",
+      "internship_id": "int-uiux-designsys-005",
+      "cv_url": "/uploads/selamawit-tadesse-cv-2026.pdf",
+      "cover_letter": "As an IxDF-certified product designer at AAiT, I have designed comprehensive Figma token systems and accessible interfaces.",
+      "availability_note": "Available immediately.",
+      "match_score": 100,
+      "status": "Interview",
+      "company_notes": "Top tier Figma design system portfolio. Scheduled for pairing session.",
+      "submitted_at": "2026-09-21T09:00:00.000Z",
+      "reviewed_at": "2026-09-25T16:00:00.000Z",
+      "updated_at": "2026-10-01T14:00:00.000Z"
+    },
+    {
+      "id": "app-selam-data-004",
+      "student_id": "stu-selam-002",
+      "internship_id": "int-data-fintech-007",
+      "cv_url": "/uploads/selamawit-tadesse-cv-2026.pdf",
+      "cover_letter": "Experienced in Python, PostgreSQL analytics, and financial time-series analysis through my ECX coffee trading research.",
+      "availability_note": "Available in Addis Ababa.",
+      "match_score": 98,
+      "status": "Shortlisted",
+      "company_notes": "Excellent analytical SQL and Python background.",
+      "submitted_at": "2026-09-23T12:10:00.000Z",
+      "reviewed_at": "2026-09-27T10:00:00.000Z",
+      "updated_at": "2026-09-27T10:00:00.000Z"
+    }
+  ],
+  "interviews": [
+    {
+      "id": "intv-001",
+      "application_id": "app-eyob-web-001",
+      "scheduled_date": "2026-10-24",
+      "start_time": "10:00",
+      "end_time": "10:45",
+      "interview_type": "Online",
+      "meeting_link": "https://meet.google.com/chapa-dev-eyob",
+      "location": "Google Meet (Virtual)",
+      "notes": "45-minute technical walkthrough of your EthioPay Ledger project + live PostgreSQL & React architecture discussion with Lead Engineer Bereket.",
+      "status": "Scheduled",
+      "student_response": "Confirmed",
+      "created_at": "2026-09-28T09:05:00.000Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "intv-002",
+      "application_id": "app-selam-uiux-003",
+      "scheduled_date": "2026-10-25",
+      "start_time": "14:00",
+      "end_time": "14:45",
+      "interview_type": "Online",
+      "meeting_link": "https://meet.google.com/gebeya-uiux-selam",
+      "location": "Google Meet (Virtual)",
+      "notes": "Design system tokens critique and interactive Figma component walkthrough.",
+      "status": "Scheduled",
+      "student_response": "Confirmed",
+      "created_at": "2026-10-01T10:05:00.000Z",
+      "updated_at": "2026-10-21T20:20:24.443Z"
+    }
+  ],
+  "saved_internships": [
+    {
+      "id": "sav-001",
+      "student_id": "stu-eyob-001",
+      "internship_id": "int-web-fullstack-003",
+      "created_at": "2026-10-21T20:20:24.443Z"
+    },
+    {
+      "id": "sav-002",
+      "student_id": "stu-eyob-001",
+      "internship_id": "int-cyber-soc-001",
+      "created_at": "2026-10-21T20:20:24.443Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "41e4eba8-7764-4ba2-bd27-a5336d613e3a",
+      "user_id": "69ef2961-500a-46a8-b2ec-9a4d11aaafef",
+      "type": "WELCOME",
+      "title": "Welcome to EthioIntern",
+      "message": "Complete your university profile, skills, and CV to unlock real-time skill matching with verified Ethiopian companies.",
+      "link": "/student/profile",
+      "is_read": false,
+      "created_at": "2026-10-21T20:24:16.351Z"
+    },
+    {
+      "id": "notif-eyob-1",
+      "user_id": "usr-student-eyob",
+      "type": "INTERVIEW_SCHEDULED",
+      "title": "Technical Interview Scheduled — Chapa Financial Technologies",
+      "message": "Chapa Financial Technologies S.C. invited you to an Online technical interview for Full-Stack Web Developer Intern (React & Node.js).",
+      "link": "/student/interviews",
+      "is_read": false,
+      "created_at": "2026-09-28T09:05:00.000Z"
+    },
+    {
+      "id": "notif-eyob-2",
+      "user_id": "usr-student-eyob",
+      "type": "APPLICATION_STATUS",
+      "title": "Application Shortlisted — Chapa Application Security",
+      "message": "Your application for Application Security & Web Penetration Testing Intern has been moved to Shortlisted.",
+      "link": "/student/applications",
+      "is_read": false,
+      "created_at": "2026-09-26T11:00:00.000Z"
+    },
+    {
+      "id": "notif-chapa-1",
+      "user_id": "usr-company-chapa",
+      "type": "APPLICATION_STATUS",
+      "title": "Interview Confirmed by Eyob Aragie",
+      "message": "Eyob Aragie (ASTU) confirmed the interview for Full-Stack Web Developer Intern.",
+      "link": "/company/interviews",
+      "is_read": false,
+      "created_at": "2026-09-28T14:00:00.000Z"
+    }
+  ]
+}

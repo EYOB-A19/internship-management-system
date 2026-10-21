@@ -1,0 +1,6 @@
+{
+  "name": "EthioIntern — Ethiopian Student Internship Platform",
+  "description": "Connects Ethiopian university students with verified companies offering legitimate internships, skill matching, CV building, and interview scheduling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
